@@ -1,0 +1,116 @@
+/* Add CSS to make the navigation responsive */
+nav {
+    flex-basis: 100%; /* Make the navigation take full width on smaller screens */
+    text-align: center;
+    margin-top: 10px; /* Add some spacing on top for better alignment */
+}
+
+nav ul li {
+    display: block;
+    margin: 0; /* Remove margin to ensure proper alignment */
+}
+
+/* Adjust the header's padding for smaller screens */
+header {
+    padding: 10px 0;
+}
+
+/* Make the logo responsive */
+.logo img {
+    max-width: 100%; /* Ensure the logo doesn't overflow on smaller screens */
+    height: auto;
+}
+
+/* Make the slider responsive */
+.slider {
+    max-height: 300px; /* Set a maximum height for the slider */
+}
+
+/* Adjust the font size for better readability on smaller screens */
+#home h1 {
+    font-size: 18px;
+}
+
+/* Make the footer responsive */
+.footer-content {
+    flex-direction: column; /* Stack footer sections vertically on smaller screens */
+    text-align: center; /* Center-align content in the footer */
+    align-items: center;
+}
+
+/* Adjust the font size for better readability in the footer on smaller screens */
+.footer-info h2,
+.footer-info address {
+    font-size: 16px;
+}
+
+.footer-links {
+    flex-basis: 100%; /* Take full width on smaller screens */
+}
+
+.footer-section {
+    flex-basis: 48%; /* Adjust the width of footer sections for smaller screens */
+}
+
+/* Adjust the font size for better readability in footer links on smaller screens */
+.footer-section h2 {
+    font-size: 18px;
+}
+
+/* Add responsiveness to news items */
+.news-images {
+    flex-wrap: wrap; /* Wrap news items to the next line on smaller screens */
+}
+
+.news-item {
+    flex-basis: calc(50% - 20px); /* Make news items take half the width with some spacing in between */
+    margin: 10px; /* Add spacing around news items */
+}
+
+.news-text {
+    font-size: 12px; /* Adjust the font size for news text on smaller screens */
+}
+
+/* Adjust video grid responsiveness */
+.video-grid {
+    flex-wrap: wrap; /* Wrap video items to the next line on smaller screens */
+}
+
+.video-item {
+    flex-basis: calc(50% - 20px); /* Make video items take half the width with some spacing in between */
+    margin: 10px; /* Add spacing around video items */
+}
+
+
+
+/* Style for the footer content container */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style for the logo */
+.footer-logo {
+    flex-basis: 20%; /* Adjust the width of the logo section as needed */
+    display: flex;
+    flex-direction: column; /* To stack the logo and navigation vertically */
+    align-items: center;
+}
+
+/* Style for the navigation links */
+.footer-navigation {
+    text-align: center; /* Center-align the navigation links */
+    margin-top: 20px; /* Add some spacing between the logo and navigation */
+}
+
+.footer-navigation h1 {
+    font-size: 18px;
+    margin: 5px 0; /* Add spacing between each link */
+}
+
+/* Rest of your existing footer styles remain the same */

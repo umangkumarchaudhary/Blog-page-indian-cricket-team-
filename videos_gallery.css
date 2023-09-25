@@ -1,0 +1,59 @@
+
+ul.video-gallery {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    background-size: cover;
+  
+    /* Add rounded corners to the video items */
+    border-radius: 10px;
+  }
+  li.video-item{
+    border: 4px solid white;
+    border-radius: 10px;
+  }
+  
+  .video-container{
+    background: linear-gradient(to bottom, blue, rgb(137, 135, 235));
+  }
+
+  /* Style each video item */
+  .video-item {
+    margin-right: 20px; /* Adjust spacing between videos */
+  
+    /* Add a drop shadow to the video items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the video element */
+  video {
+    width: 300px; /* Adjust the video width as needed */
+  }
+  
+  /* Style the scroll button container */
+  .scroll-button {
+    text-align: center;
+    margin-top: 10px;
+  
+    /* Use a gradient effect for the scroll button container */
+    background: linear-gradient(to right, #000000, #ffffff);
+  }
+  
+  /* Style the scroll buttons */
+  button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0 10px;
+  
+    /* Use a different font and color for the scroll button text */
+    font-family: sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Adjust the scroll button appearance as desired */
+  

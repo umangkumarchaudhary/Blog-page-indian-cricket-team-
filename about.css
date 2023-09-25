@@ -1,0 +1,245 @@
+#about {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.about-achievements {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+button {
+    background-color: #56bfe9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+header {
+    background-color: rgb(13, 2, 46);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+body{
+    background-color: #56bfe9;
+}
+
+.footer {
+    background-color: #150454;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 16px;
+}
+
+/* Style for the footer content container */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style for the logo */
+.footer-logo {
+    flex-basis: 20%; /* Adjust the width of the logo section as needed */
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the contact information */
+.footer-info {
+    flex-basis: 40%;
+}
+
+.footer-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-info address {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for the links section */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+.footer-section {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-info address {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for the links section */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+.footer-section {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-terms {
+    font-size: 14px;
+}
+
+.footer-terms a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-terms a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(13, 2, 46);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+header {
+    background-color: rgb(13, 2, 46);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}

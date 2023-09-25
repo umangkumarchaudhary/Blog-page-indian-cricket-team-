@@ -1,0 +1,893 @@
+
+
+.bordered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, blue, rgb(137, 135, 235));
+}
+
+.bordered-section h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center; /* Center the h2 heading */
+}
+
+
+.news-images {
+    display: flex; /* Display images in a row */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+}
+
+/* Style for the news items */
+.news-item {
+    margin: 10px;
+    display: inline-block;
+}
+
+.news-text {
+    background-color: #F4F4F4;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center; /* Center the text within each news item */
+}
+
+/* Set a max-width for the images */
+.news-item img {
+    max-width: 100%; /* Adjust this value as needed to fit within the screen */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* .video-grid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: -30%;
+    width: -10%;
+}
+
+.video-item {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    height: -30%;
+    width:-10%;
+} */
+
+.api-container{
+    
+    display: flex;
+    background:linear-gradient(to right,skyblue, rgb(151, 151, 192));
+
+}
+
+.first-image{
+    margin-left: 460px;
+}
+#live-score-container{
+    text-align: center;
+}
+
+
+.update-content {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color:rgb(227, 225, 225); */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(13, 2, 46);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    border: 3px solid white;
+    border-radius: 60px;
+}
+
+.logo{
+    margin-top: 0;
+    
+}
+
+.slider {
+    background-color: rgb(15, 221, 236);
+    padding: 0; /* Remove padding to ensure full width */
+    text-align: center;
+    display: block;
+   
+    position: relative;
+    max-height: 300px; /* Set the maximum height of the slider */
+    overflow: hidden; /* Hide overflow to prevent images from stretching */
+}
+
+/* Style for the slider image */
+.slider img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+.slider_news {
+    background-color: #0056b3;
+    overflow: hidden; /* Hide overflow to prevent horizontal scrollbars */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    position: relative;
+}
+.slider_news marquee {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+#home h1{
+    text-align: center;
+    font-size: 24px;
+    color:black;
+    /* background-color: skyblue; */
+    max-height: 200px;
+}
+
+.news-container {
+    display: flex;
+    flex: 1;
+    border: 10px solid white;
+    background-color: white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-news{
+    padding-right: 50px;
+    width: 50%;
+    height: 500px;
+}
+
+
+.vertical-news-img {
+    width: 50%;
+    
+    height: 500px;
+}
+
+.vertical-news-text{
+    color: #150454;
+
+}
+.vertical-news-img img{
+    width: 760px;
+    height: 770px;
+}
+
+.horizontal-news-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal-news-img img {
+    max-width: 100%;
+    max-height: 40%; /* Set the maximum height for horizontal images to 50% of the container */
+    height: 450px;
+    width: 760px;
+    justify-content: space-between;
+}
+
+.horizontal-news {
+    flex: 1; /* Allow horizontal-news to grow and take available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #150454;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 16px;
+}
+
+/* Style for the footer content container */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style for the logo */
+.footer-logo {
+    flex-basis: 20%; /* Adjust the width of the logo section as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the contact information */
+.footer-info {
+    flex-basis: 40%;
+}
+
+.footer-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-info address {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for the links section */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+.footer-section {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-terms {
+    font-size: 14px;
+}
+
+.footer-terms a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer-terms a:hover {
+    text-decoration: underline;
+}
+
+.footer-navigation {
+   margin-left: 400px;
+    margin-top: -60px; /* Add some spacing between the logo and navigation */
+}
+
+.footer-navigation a{
+  color: #ccc;
+  font-family: serif;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+/* Style for the Home-grid container */
+.Home-grid {
+    display: flex;
+    flex-direction: row; 
+    grid-gap: 30px;
+    background-color: #e2d2f5;
+    opacity:0.9;
+    padding: 20px;
+    margin: 0;
+    
+}
+
+marquee{
+    color: white;
+}
+
+
+/* Style for individual Indian_team_home elements (image containers) */
+.Indian_team_home {
+    align-items: center;
+    margin-left: 25px;
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: grid; /* Allow horizontal arrangement for one image */
+    border: 5px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    background-color: #150454;
+}
+
+
+/* Style for the images inside Indian_team_home */
+.Indian_team_home img {
+   max-width: 500px;
+   width: 100%;
+   height: 100%;
+   max-height: 250px;
+   display: block;
+   
+   transition: transform 0.3s ease;
+}
+
+.Indian_team_home p{
+    color: #bbb;
+   font-family: serif;
+}
+
+.Indian_team_home:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Style for the image description */
+.image-description {
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+     
+}
+
+.image-description p {
+    margin: 10px;
+    padding: 5px 0;
+}
+
+/* Style for the horizontally arranged image */
+.horizontal {
+    flex-direction: column; /* Arrange the image and description horizontally */
+}
+
+.Written_content {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:#d1b5f5 ;
+    
+}
+
+
+.upcoming-events {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.event-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.event-description {
+    font-size: 16px;
+    color: #555;
+}
+
+.event-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+.introduction {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+   background: linear-gradient(to bottom, orange, green);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h1 {
+    font-size: 28px;
+    color: white;
+}
+
+.introduction p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.upcomingMatches {
+    margin-top: 20px;
+}
+
+.upcomingMatches table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.upcomingMatches th, .upcomingMatches td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.upcomingMatches th {
+    background-color: #f2f2f2;
+}
+
+
+.player-profiles {
+    margin-top: 20px;
+    /* background-color: #e2d2f5; */
+    background: linear-gradient(to bottom, rgb(88, 88, 249), rgb(135, 158, 235));
+}
+
+.player-profiles h1{
+    -webkit-text-stroke: 2px black;
+}
+
+.player-profile {
+    /* background-image: url('img'); Replace 'your-background-image.jpg' with your actual image path */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: linear-gradient(to bottom, orange, white, green);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this line to make ::after pseudo-element work */
+}
+
+.player-profile::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity (last value) as needed */
+    z-index: -1; /* Add this line to place the overlay behind the content */
+}
+
+.read-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.achievement-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.player-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.player-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.player-details {
+    overflow: hidden;
+}
+
+.player-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.player-career {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.player-intro {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    /* Colored outline (blue) with a 2px width */
+    margin: 20px 0;
+}
+
+
+.player-stats {
+    margin-top: 10px;
+}
+
+.player-stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.player-stats th, .player-stats td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.player-stats th {
+    background-color: #f2f2f2;
+}
+
+/* CSS styles for the Achievements of Team India section */
+.achievements-section {
+    background: linear-gradient(to bottom, skyblue, violet);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #333;
+    -webkit-text-stroke:0.5px white;
+    margin-bottom: 20px;
+}
+
+.achievement-card {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-image img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.achievement-details {
+    padding: 20px;
+}
+
+.achievement-title {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.achievement-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .achievement-card {
+        width: 100%;
+    }
+}
+
+
+#contact {
+    background-color: #ded4e4;
+    padding: 30px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Style for the Contact Us section */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Style for the Contact Map */
+.contact-map {
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+/* Style for the Contact Form */
+.contact-form {
+    flex-basis: 48%; /* Adjust the width as needed */
+}
+
+/* Additional styling for the Google Maps iframe */
+iframe {
+    border: 0;
+    width: 600px;
+    height: 400px;
+}
+
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #00588a;
+}
+
+
+
+.news-item {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.news-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F4F4F4; 
+    color: black; 
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.news-slide-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+​
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.content{
+    /* background-color: #13cee7; */
+    width: 100%;
+    background: linear-gradient(to bottom, blue, rgb(137, 135, 235));
+}
+
+
+
+
